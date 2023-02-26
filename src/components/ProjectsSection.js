@@ -7,7 +7,7 @@ const projects = [
   {
     name: "Pokeapi",
     description:
-      "A simple project to consume the pokeapi and show the pokemons, made usign React and Tailwind",
+      "A simple project to consume the pokeapi and show the pokemons, made usign React and Tailwind.",
     image: "/poke.jpg",
     github: "https://github.com/agustinmfran/pokedex",
     link: "https://pokedex-bice-five.vercel.app/",
