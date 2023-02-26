@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import { Link } from "react-scroll/modules";
 
 const Header = () => {
   return (
@@ -7,7 +8,18 @@ const Header = () => {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex justify-center pb-4 pt-4 md:py-5 md:block">
-            <h2 className="text-2xl font-bold">Agustin Franco</h2>
+            <Link
+              className="cursor-pointer"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              <h2 className="text-2xl font-bold border-b-2 border-teal-500">
+                Agustín Franco
+              </h2>
+            </Link>
           </div>
         </div>
 

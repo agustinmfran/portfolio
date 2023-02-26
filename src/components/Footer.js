@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+import { Link } from "react-scroll/modules";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 
 const Footer = () => {
@@ -8,8 +8,15 @@ const Footer = () => {
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
-          <Link href="/" className="hover:underline">
-            © 2023 Agusín Franco
+          <Link
+            to="home"
+            className="hover:underline cursor-pointer"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            © 2023 Agustín Franco
           </Link>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">

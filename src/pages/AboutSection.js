@@ -39,16 +39,17 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I graduated from Digital House Coding School, Buenos Aires in
+              2020. I have been working in personal and freelance projects using
+              new technologies I found interesting, such as: Node, JavaScript,
+              React & NextJS.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              From sports, playing videogames, traveling, to listening to music
+              and DJing too. I am always seeking new experiences and love to
+              keep myself engaged and learning new things.
             </p>
             <br />
             <p>
@@ -59,7 +60,7 @@ const AboutSection = () => {
               and that&#39;s what I strive to do, I have a passion for
               technology and a desire to always push the limits of what is
               possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              always open to new opportunities.
             </p>
           </div>
           <div className="md:w-1/2">

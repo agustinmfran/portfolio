@@ -12,6 +12,14 @@ const projects = [
     github: "https://github.com/agustinmfran/pokedex",
     link: "https://pokedex-bice-five.vercel.app/",
   },
+  {
+    name: "Biblo",
+    description:
+      "Ecommerce project made with Node, Express, JS, Tailwind and MySQL. Books store with user authentication, cart, checkout and admin panel.",
+    image: "/biblo.jpg",
+    github: "https://github.com/agustinmfran/biblo",
+    link: "https://github.com/agustinmfran/biblo",
+  },
 ];
 
 const ProjectsSection = () => {

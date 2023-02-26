@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "react-scroll/modules";
 import { HiArrowDown } from "react-icons/hi";
 
 const InfoSection = () => {
@@ -18,7 +18,7 @@ const InfoSection = () => {
         </div>
         <div className="md:mt-2 md:w-3/5 md:pr-12">
           <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0">
-            Hi, I&#39;m Agustin
+            Hi, I&#39;m Agustín.
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
@@ -29,8 +29,10 @@ const InfoSection = () => {
             that makes life easier and more meaningful.
           </p>
           <Link
-            href="/ProjectsSection"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            to="projects"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
+            spy={true}
+            smooth={true}
             offset={-100}
             duration={500}
           >
@@ -39,7 +41,14 @@ const InfoSection = () => {
         </div>
       </div>
       <div className="flex flex-row justify-center ">
-        <Link href="/AboutSection" offset={-100} duration={500}>
+        <Link
+          className="cursor-pointer"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
           <HiArrowDown size={35} className="animate-bounce" />
         </Link>
       </div>
