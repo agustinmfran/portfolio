@@ -23,7 +23,7 @@ const projects = [
   {
     name: "MOVIEfinder",
     description:
-      "Simple movie finder. Fetchs data and shows popular movies details. Made with NextJS, Tailwind and TMDB API.",
+      "Simple movie finder. Fetchs data and shows popular movie details. Made with NextJS, Tailwind and TMDB API.",
     image: "/movie.jpg",
     github: "https://github.com/agustinmfran/movie-finder",
     link: "https://movie-finder-mu.vercel.app/",
