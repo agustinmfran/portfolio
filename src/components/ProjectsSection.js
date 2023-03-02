@@ -20,6 +20,14 @@ const projects = [
     github: "https://github.com/agustinmfran/biblo",
     link: "https://github.com/agustinmfran/biblo",
   },
+  {
+    name: "MOVIEfinder",
+    description:
+      "Simple movie finder. Fetchs data and shows popular movies details. Made with NExtJS, Tailwind and TMDB API.",
+    image: "/movie.jpg",
+    github: "https://github.com/agustinmfran/movie-finder",
+    link: "https://movie-finder-mu.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
