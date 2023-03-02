@@ -1,6 +1,11 @@
 import React from "react";
 import { Link } from "react-scroll/modules";
-import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
+import {
+  AiOutlineGithub,
+  AiOutlineLinkedin,
+  AiOutlineLink,
+  AiOutlineMail,
+} from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -38,6 +43,28 @@ const Footer = () => {
           >
             <AiOutlineLinkedin
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 "
+              size={30}
+            />
+          </a>
+
+          <a
+            href="https://www.agustinmfran.com.ar"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineLink
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-slate-300"
+              size={30}
+            />
+          </a>
+
+          <a
+            href="mailto:agustinmfran@gmail.com"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineMail
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-slate-300"
               size={30}
             />
           </a>
