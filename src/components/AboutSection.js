@@ -39,17 +39,17 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I graduated from Digital House Coding School, Buenos Aires in
-              2020. I have been working in personal and freelance projects using
-              new technologies I found interesting, such as: Node, JavaScript,
-              React & NextJS.
+              I graduated from Digital House Coding School, Buenos Aires, in
+              2020. I have been working in personal and freelance projects since
+              then, using technologies I find interesting such as: Node,
+              JavaScript, React & NextJS.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
               From sports, playing videogames, traveling, to listening to music
-              and DJing too. I am always seeking new experiences and love to
-              keep myself engaged and learning new things.
+              and DJing too. Always seeking new experiences. Love to keep myself
+              engaged and learning new things.
             </p>
             <br />
             <p>
