@@ -37,7 +37,8 @@ const AboutSection = () => {
             <p>
               {lang.p1} <span className="font-bold">{lang.span1}</span>,
               <span className="font-bold">{lang.span2}</span>, {lang.and}
-              <span className="font-bold">{lang.span3}</span> {lang.p2}
+              <span className="font-bold">{lang.span3}</span>
+              {lang.p2}
             </p>
             <br />
             <p>{lang.p3}</p>
