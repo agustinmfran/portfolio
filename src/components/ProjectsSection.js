@@ -1,46 +1,46 @@
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
+import es from "../languages/es";
+import en from "../languages/en";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
-const projects = [
-  {
-    name: "Pokeapi",
-    description:
-      "A simple project to consume the pokeapi and show the pokemons, made usign React and Tailwind.",
-    image: "/poke.jpg",
-    github: "https://github.com/agustinmfran/pokedex",
-    link: "https://pokedex-bice-five.vercel.app/",
-  },
-  {
-    name: "Biblo",
-    description:
-      "Ecommerce project made with Node, Express, JS, Tailwind and MySQL. Books store with user authentication, cart, checkout and admin panel.",
-    image: "/biblo.jpg",
-    github: "https://github.com/agustinmfran/biblo",
-    link: "https://github.com/agustinmfran/biblo",
-  },
-  {
-    name: "MOVIEfinder",
-    description:
-      "Simple movie finder. Fetchs data and shows popular movie details. Made with NextJS, Tailwind and TMDB API.",
-    image: "/movie.jpg",
-    github: "https://github.com/agustinmfran/movie-finder",
-    link: "https://movie-finder-mu.vercel.app/",
-  },
-];
-
 const ProjectsSection = () => {
+  const { locale } = useRouter();
+  const lang = locale === "es" ? es.projectsSection : en.projectsSection;
+  const projects = [
+    {
+      name: "Pokeapi",
+      description: lang.pokeapi.description,
+      image: "/poke.jpg",
+      github: "https://github.com/agustinmfran/pokedex",
+      link: "https://pokedex-bice-five.vercel.app/",
+    },
+    {
+      name: "Biblo",
+      description: lang.biblo.description,
+      image: "/biblo.jpg",
+      github: "https://github.com/agustinmfran/biblo",
+      link: "https://github.com/agustinmfran/biblo",
+    },
+    {
+      name: "MOVIEfinder",
+      description: lang.moviefinder.description,
+      image: "/movie.jpg",
+      github: "https://github.com/agustinmfran/movie-finder",
+      link: "https://movie-finder-mu.vercel.app/",
+    },
+  ];
   return (
     <section id="projects">
       <h1 className="text-center font-bold text-4xl">
-        Projects{" "}
+        {lang.title}{" "}
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
       </h1>
       <div className="flex flex-col space-y-28">
-        {projects.map((project, index) => {
+        {projects.map((project) => {
           return (
-            <div key={index}>
+            <div key={project.name}>
               <div className="flex flex-col md:flex-row md:space-x-12">
                 <div className="mt-8 md:w-1/2">
                   <Link href={project.link} target="_blank">

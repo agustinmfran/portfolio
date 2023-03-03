@@ -1,32 +1,23 @@
 "use client";
-import React from "react";
 import { useState } from "react";
-import { Link } from "react-scroll/modules";
+import { useRouter } from "next/router";
+import es from "../languages/es";
+import en from "../languages/en";
+import Selector from "./Selector";
+import { Link as Rslink } from "react-scroll/modules";
+import Link from "next/link";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
-
-const NAV_ITEMS = [
-  {
-    label: "Home",
-    page: "home",
-  },
-  {
-    label: "About",
-    page: "about",
-  },
-  {
-    label: "Projects",
-    page: "projects",
-  },
-];
 
 export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
+  const { asPath, locale, locales } = useRouter();
+  const lang = locale === "es" ? es.header : en.header;
   return (
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white ">
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link
+            <Rslink
               to="home"
               className="cursor-pointer"
               spy={true}
@@ -39,7 +30,7 @@ export default function Navbar() {
                   Agustín Franco
                 </h2>
               </div>
-            </Link>
+            </Rslink>
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -58,25 +49,43 @@ export default function Navbar() {
             }`}
           >
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              {NAV_ITEMS.map((item, idx) => {
-                return (
-                  <Link
-                    key={idx}
-                    to={item.page}
-                    className={
-                      "block lg:inline-block text-neutral-900  hover:text-lg hover:text-teal-500 hover:transition duration-300 cursor-pointer"
-                    }
-                    activeClass="active"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                    onClick={() => setNavbar(!navbar)}
-                  >
-                    {item.label}
-                  </Link>
-                );
-              })}
+              <Rslink
+                to="home"
+                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-teal-500 hover:transition duration-300 cursor-pointer"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                onClick={() => setNavbar(!navbar)}
+              >
+                {lang.home}
+              </Rslink>
+              <Rslink
+                to="about"
+                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-teal-500 hover:transition duration-300 cursor-pointer"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                onClick={() => setNavbar(!navbar)}
+              >
+                {lang.about}
+              </Rslink>
+              <Rslink
+                to="projects"
+                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-teal-500 hover:transition duration-300 cursor-pointer"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                onClick={() => setNavbar(!navbar)}
+              >
+                {lang.projects}
+              </Rslink>
+              <Selector />
             </div>
           </div>
         </div>
