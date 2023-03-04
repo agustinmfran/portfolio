@@ -17,7 +17,7 @@ const en = {
     span1: "highly ambitious",
     span2: " self-motivated",
     and: "and",
-    span3: " proactive",
+    span3: " proactive ",
     p2: "Fullstack web Developer based in Toulouse, France.",
     p3: "I graduated from Digital House Coding School, Buenos Aires, in 2020. I have been working in personal and freelance projects since then, using technologies I find interesting such as: Node, JavaScript, React & NextJS.",
     p4: "I have a wide range of hobbies and passions that keep me busy. From sports, playing videogames, traveling, to listening to music and DJing too. Always seeking new experiences. Love to keep myself engaged and learning new things.",
