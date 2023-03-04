@@ -8,7 +8,7 @@ function Selector() {
   return (
     <select
       onChange={handleChange}
-      className="hover:text-teal-500 cursor-pointer"
+      className="border-2 rounded hover:text-teal-500 hover:border-teal-500 cursor-pointer"
     >
       <option value="en" defaultValue>
         en
