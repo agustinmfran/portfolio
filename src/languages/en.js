@@ -38,11 +38,11 @@ const en = {
     },
     moviefinder: {
       description:
-        "Simple movie finder. Fetchs data and shows popular movie details. Made with NextJS, Tailwind and TMDB API.",
+        "Simple movie finder. Fetchs data and shows popular movie details. Made with Next.js, Tailwind and TMDB API.",
     },
     portfolio: {
       description:
-        "Portfolio made with NextJS and Tailwind. Adapted from my personal portfolio, retouched and several languages added.",
+        "Portfolio made with Next.js and Tailwind. Adapted from my personal portfolio, retouched and several languages added.",
     },
   },
   bibloSection: {

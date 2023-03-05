@@ -48,17 +48,6 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.agustinmfran.com.ar"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineLink
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500"
-              size={30}
-            />
-          </a>
-
-          <a
             href="mailto:agustinmfran@gmail.com"
             rel="noreferrer"
             target="_blank"
