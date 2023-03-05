@@ -21,7 +21,7 @@ const ProjectsSection = () => {
       description: lang.biblo.description,
       image: "/biblo.jpg",
       github: "https://github.com/agustinmfran/biblo",
-      link: "https://github.com/agustinmfran/biblo",
+      link: "/projects/biblo",
     },
     {
       name: "MOVIEfinder",
