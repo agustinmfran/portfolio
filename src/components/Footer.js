@@ -4,6 +4,7 @@ import {
   AiOutlineLinkedin,
   AiOutlineLink,
   AiOutlineMail,
+  AiOutlineCloudDownload,
 } from "react-icons/ai";
 
 const Footer = () => {
@@ -63,6 +64,18 @@ const Footer = () => {
             target="_blank"
           >
             <AiOutlineMail
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500"
+              size={30}
+            />
+          </a>
+
+          <a
+            href="https://drive.google.com/file/d/1UJsYlt1V1nuibHrj8ziNiiLuGuzc3oUB/view?usp=share_link"
+            download="Agustin Franco CV.pdf"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineCloudDownload
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500"
               size={30}
             />
