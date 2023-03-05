@@ -30,6 +30,13 @@ const ProjectsSection = () => {
       github: "https://github.com/agustinmfran/movie-finder",
       link: "https://movie-finder-mu.vercel.app/",
     },
+    {
+      name: "Portfolio",
+      description: lang.portfolio.description,
+      image: "/portfolio.png",
+      github: "https://github.com/agustinmfran/portfolio-pau",
+      link: "https://portolio-pau.vercel.app/",
+    },
   ];
   return (
     <section id="projects">

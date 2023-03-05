@@ -38,7 +38,11 @@ const es = {
     },
     moviefinder: {
       description:
-        "Simple buscador de peliculas. Trae data y muestra los detalles de las peliculas populares. Hecho con NextJS, Tailwind y TMDB API.",
+        "Simple buscador de peliculas. Trae data y muestra los detalles de las peliculas populares. Hecho con Next.js, Tailwind y TMDB API.",
+    },
+    portfolio: {
+      description:
+        "Portfolio hecho con Next.js y Tailwind. Adaptado de mi portfolio personal, retocado y varios idiomas agregados.",
     },
   },
   bibloSection: {
