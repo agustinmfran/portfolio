@@ -41,6 +41,10 @@ const en = {
         "Simple movie finder. Fetchs data and shows popular movie details. Made with NextJS, Tailwind and TMDB API.",
     },
   },
+  bibloSection: {
+    description:
+      "Ecommerce bookstore shop made using Node, Express, JavaScript, Tailwind and MySQL database. Stores users, products, purchases, shopping cart and checkout. User authentication, user panel, admin panel and session cookies.",
+  },
 };
 
 export default en;

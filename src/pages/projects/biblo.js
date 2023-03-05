@@ -1,9 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
+import { useRouter } from "next/router";
+import es from "../../languages/es";
+import en from "../../languages/en";
 import HeaderProjects from "@/components/HeaderProjects";
 import Footer from "@/components/Footer";
 
-function biblo() {
+function Biblo() {
+  const { locale } = useRouter();
+  const lang = locale === "es" ? es.bibloSection : en.bibloSection;
   return (
     <>
       <Head>
@@ -17,12 +22,7 @@ function biblo() {
           <h1 className="text-center font-bold text-7xl mb-8 border-b-2 border-teal-500">
             Biblo{" "}
           </h1>
-          <p className="text-center text-2xl">
-            Ecommerce bookstore shop made using Node, Express, JavaScript,
-            Tailwind and MySQL database. Stores users, products, purchases,
-            shopping cart and checkout. User authentication, user panel, admin
-            panel and session cookies.
-          </p>
+          <p className="text-center text-2xl">{lang.description}</p>
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
           <p className="text-center font-bold text-2xl mb-4">Home Page</p>
           <Image
@@ -57,4 +57,4 @@ function biblo() {
   );
 }
 
-export default biblo;
+export default Biblo;

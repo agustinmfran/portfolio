@@ -41,6 +41,10 @@ const es = {
         "Simple buscador de peliculas. Trae data y muestra los detalles de las peliculas populares. Hecho con NextJS, Tailwind y TMDB API.",
     },
   },
+  bibloSection: {
+    description:
+      "Tienda ecommerce de libros hecha usando Node, Express, JavaScript, Tailwind y base de datos MySQL. Almacena usuarios, productos, compras, carrito de compras y checkout. Autenticación de usuario, panel de usuario y cookies de sesión.",
+  },
 };
 
 export default es;
