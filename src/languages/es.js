@@ -7,7 +7,8 @@ const es = {
   infoSection: {
     title: "Hola, soy Agustín.",
     im: "Soy",
-    p: "establecido en Toulouse, Francia. Trabajando para crear un mejor código que haga la vida más fácil y significativa.",
+    p1: " orientado a ",
+    p2: ". Viviendo en Toulouse, Francia. Trabajando para crear un mejor código que haga la vida más fácil y significativa.",
     projects: "Proyectos",
   },
   aboutSection: {

@@ -28,8 +28,10 @@ const InfoSection = () => {
             {lang.im}{" "}
             <span className="font-semibold text-teal-600">
               Fullstack web Developer
-            </span>{" "}
-            {lang.p}
+            </span>
+            {lang.p1}
+            <span className="font-semibold text-teal-600">Frontend</span>
+            {lang.p2}
           </p>
           <Link
             to="projects"
