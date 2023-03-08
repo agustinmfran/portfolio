@@ -2,7 +2,6 @@ import { Link } from "react-scroll/modules";
 import {
   AiOutlineGithub,
   AiOutlineLinkedin,
-  AiOutlineLink,
   AiOutlineMail,
   AiOutlineCloudDownload,
 } from "react-icons/ai";
