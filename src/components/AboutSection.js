@@ -12,6 +12,7 @@ const skills = [
   "Tailwind",
   "Node",
   "Express",
+  "Redux",
   "MongoDB",
   "MySQL",
   "Git",
