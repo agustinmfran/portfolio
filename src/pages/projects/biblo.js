@@ -29,7 +29,7 @@ function Biblo() {
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
           <p className="text-center font-bold text-2xl mb-4">Home Page</p>
           <Image
-            className="border border-teal-500"
+            className="border-2 border-teal-500 shadow-lg rounded-lg"
             src="/biblofull.png"
             alt="biblo"
             width={1000}
@@ -38,7 +38,7 @@ function Biblo() {
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
           <p className="text-center font-bold text-2xl mb-4">Login</p>
           <Image
-            className="border border-teal-500"
+            className="border-2 border-teal-500 shadow-lg rounded-lg"
             src="/biblologin.png"
             alt="biblologin"
             width={1000}
@@ -47,7 +47,7 @@ function Biblo() {
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
           <p className="text-center font-bold text-2xl mb-4">Register</p>
           <Image
-            className="border border-teal-500"
+            className="border-2 border-teal-500 shadow-lg rounded-lg"
             src="/bibloregister.png"
             alt="biblregister"
             width={1000}
