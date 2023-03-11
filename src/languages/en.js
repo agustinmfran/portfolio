@@ -47,7 +47,7 @@ const en = {
     },
     todolist: {
       description:
-        "Simple to do list made with React and Tailwind, using Redux and React Router.",
+        "Simple to do list CRUD made with React and Tailwind, using Redux and React Router.",
     },
   },
   bibloSection: {
