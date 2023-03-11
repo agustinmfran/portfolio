@@ -24,7 +24,7 @@ function Biblo() {
       >
         <div className="flex flex-col justify-center items-center pt-40">
           <Link href="https://github.com/agustinmfran/biblo" target="_blank">
-            <h1 className="text-center font-bold text-7xl mb-8 border-b-2 border-teal-500">
+            <h1 className="text-center font-bold text-7xl mb-8 border-b-4 border-teal-500">
               Biblo{" "}
             </h1>
           </Link>
