@@ -5,7 +5,7 @@ import Link from "next/link";
 import es from "../../languages/es";
 import en from "../../languages/en";
 import HeaderProjects from "@/components/HeaderProjects";
-import Footer from "@/components/Footer";
+import FooterProjects from "@/components/FooterProjects";
 
 function Biblo() {
   const { locale } = useRouter();
@@ -18,7 +18,10 @@ function Biblo() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeaderProjects />
-      <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
+      <main
+        id="project"
+        className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl"
+      >
         <div className="flex flex-col justify-center items-center pt-40">
           <Link href="https://github.com/agustinmfran/biblo" target="_blank">
             <h1 className="text-center font-bold text-7xl mb-8 border-b-2 border-teal-500">
@@ -55,7 +58,7 @@ function Biblo() {
           />
         </div>
       </main>
-      <Footer />
+      <FooterProjects />
     </>
   );
 }
