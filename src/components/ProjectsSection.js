@@ -40,7 +40,7 @@ const ProjectsSection = () => {
     {
       name: "ToDoLIST",
       description: lang.todolist.description,
-      image: "/todo.jpg",
+      image: "/todo.png",
       github: "https://github.com/agustinmfran/react-todolist",
       link: "https://react-todolist-lilac.vercel.app/",
     },
