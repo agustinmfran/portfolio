@@ -45,8 +45,10 @@ const es = {
       description:
         "Portfolio hecho con Next.js y Tailwind. Adaptado de mi portfolio personal, retocado y varios idiomas agregados.",
     },
-    todolist:
-      'Simple "To do list" hecho con React y Tailwind, usando Redux y React Router.',
+    todolist: {
+      description:
+        'Simple "To do list" hecho con React y Tailwind, usando Redux y React Router.',
+    },
   },
   bibloSection: {
     description:
