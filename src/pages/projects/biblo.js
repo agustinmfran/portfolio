@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import es from "../../languages/es";
@@ -11,6 +12,9 @@ function Biblo() {
   const lang = locale === "es" ? es.bibloSection : en.bibloSection;
   return (
     <>
+      <Head>
+        <title>Agustín Franco</title>
+      </Head>
       <HeaderProjects />
       <main
         id="project"
