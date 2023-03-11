@@ -12,11 +12,6 @@ function Biblo() {
   const lang = locale === "es" ? es.bibloSection : en.bibloSection;
   return (
     <>
-      <Head>
-        <title>Biblo</title>
-        <meta name="description" content="Biblo project" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <HeaderProjects />
       <main
         id="project"
