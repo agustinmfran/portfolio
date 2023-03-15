@@ -58,7 +58,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1UJsYlt1V1nuibHrj8ziNiiLuGuzc3oUB/view?usp=share_link"
+            href="https://drive.google.com/file/d/1D_8SP0cbr14AuyvldlRn4laiBGoQhJjg/view?usp=share_link"
             download="Agustin Franco CV.pdf"
             rel="noreferrer"
             target="_blank"
