@@ -30,11 +30,13 @@ function Biblo() {
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
           <div className="flex justify-center items-center w-full h-full">
             <iframe
-              className="top-0 left-0"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/sqQo05JA354"
-              title="Biblo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
             ></iframe>
           </div>
         </div>
