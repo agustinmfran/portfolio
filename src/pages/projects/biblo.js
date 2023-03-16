@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Link from "next/link";
@@ -18,7 +17,7 @@ function Biblo() {
       <HeaderProjects />
       <main
         id="project"
-        className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl md:h-screen"
+        className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl md:h-screen lg:h-max"
       >
         <div className="flex flex-col justify-center items-center pt-40">
           <Link href="https://github.com/agustinmfran/biblo" target="_blank">
@@ -30,13 +29,12 @@ function Biblo() {
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
           <div className="flex justify-center items-center w-full h-full">
             <iframe
-              width="560"
-              height="315"
+              width="853"
+              height="480"
               src="https://www.youtube.com/embed/sqQo05JA354"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              title="Biblo"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
             ></iframe>
           </div>
         </div>
