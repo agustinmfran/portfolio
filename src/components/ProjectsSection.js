@@ -44,6 +44,13 @@ const ProjectsSection = () => {
       github: "https://github.com/agustinmfran/react-todolist",
       link: "https://react-todolist-lilac.vercel.app/",
     },
+    {
+      name: "Technews",
+      description: lang.technews.description,
+      image: "/technews.png",
+      github: "https://github.com/agustinmfran/technews",
+      link: "https://technews-phi.vercel.app/",
+    },
   ];
   return (
     <section id="projects">

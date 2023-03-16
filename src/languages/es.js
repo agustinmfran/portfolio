@@ -49,6 +49,10 @@ const es = {
       description:
         'Simple "to do list" CRUD hecho con React y Tailwind, usando Redux y React Router.',
     },
+    technews: {
+      description:
+        "Sitio de noticias hecho HTML, CSS y JavaScript. Estático y muy simple.",
+    },
   },
   bibloSection: {
     description:
