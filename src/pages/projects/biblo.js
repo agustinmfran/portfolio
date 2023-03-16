@@ -18,7 +18,7 @@ function Biblo() {
       <HeaderProjects />
       <main
         id="project"
-        className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl"
+        className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl md:h-screen"
       >
         <div className="flex flex-col justify-center items-center pt-40">
           <Link href="https://github.com/agustinmfran/biblo" target="_blank">
@@ -28,32 +28,15 @@ function Biblo() {
           </Link>
           <p className="text-center text-2xl">{lang.description}</p>
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
-          <p className="text-center font-bold text-2xl mb-4">Home Page</p>
-          <Image
-            className="border-2 border-teal-500 shadow-lg rounded-lg"
-            src="/biblofull.png"
-            alt="biblo"
-            width={1000}
-            height={1000}
-          />
-          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
-          <p className="text-center font-bold text-2xl mb-4">Login</p>
-          <Image
-            className="border-2 border-teal-500 shadow-lg rounded-lg"
-            src="/biblologin.png"
-            alt="biblologin"
-            width={1000}
-            height={1000}
-          />
-          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
-          <p className="text-center font-bold text-2xl mb-4">Register</p>
-          <Image
-            className="border-2 border-teal-500 shadow-lg rounded-lg"
-            src="/bibloregister.png"
-            alt="biblregister"
-            width={1000}
-            height={1000}
-          />
+          <div className="flex justify-center items-center w-full h-full">
+            <iframe
+              className="top-0 left-0"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/sqQo05JA354"
+              title="Biblo"
+            ></iframe>
+          </div>
         </div>
       </main>
       <FooterProjects />
