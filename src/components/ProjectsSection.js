@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import es from "../languages/es";
 import en from "../languages/en";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
+import Fade from "react-reveal/Fade";
 
 const ProjectsSection = () => {
   const { locale } = useRouter();
@@ -62,39 +63,41 @@ const ProjectsSection = () => {
         {projects.map((project) => {
           return (
             <div key={project.name}>
-              <div className="flex flex-col md:flex-row md:space-x-12">
-                <div className="mt-8 md:w-1/2">
-                  <Link href={project.link} target="_blank">
-                    <Image
-                      src={project.image}
-                      alt="project-image"
-                      width={1000}
-                      height={1000}
-                      className="rounded-xl shadow-xl hover:opacity-70"
-                    />
-                  </Link>
-                </div>
-                <div className="mt-12 md:w-1/2">
-                  <h1 className="text-4xl font-bold md-6">{project.name}</h1>
-                  <p className="text-xl leading-7 mb-4 text-neutral-600">
-                    {project.description}
-                  </p>
-                  <div className="flex flex-row align-bottom space-x-4">
-                    <Link href={project.github} target="_blank">
-                      <BsGithub
-                        size={30}
-                        className="hover:-translate-y-1 transition-transform cursor-pointer"
-                      />
-                    </Link>
+              <Fade left>
+                <div className="flex flex-col md:flex-row md:space-x-12">
+                  <div className="mt-8 md:w-1/2">
                     <Link href={project.link} target="_blank">
-                      <BsArrowUpRightSquare
-                        size={30}
-                        className="hover:-translate-y-1 transition-transform cursor-pointer"
+                      <Image
+                        src={project.image}
+                        alt="project-image"
+                        width={1000}
+                        height={1000}
+                        className="rounded-xl shadow-xl hover:opacity-70"
                       />
                     </Link>
                   </div>
+                  <div className="mt-12 md:w-1/2">
+                    <h1 className="text-4xl font-bold md-6">{project.name}</h1>
+                    <p className="text-xl leading-7 mb-4 text-neutral-600">
+                      {project.description}
+                    </p>
+                    <div className="flex flex-row align-bottom space-x-4">
+                      <Link href={project.github} target="_blank">
+                        <BsGithub
+                          size={30}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer"
+                        />
+                      </Link>
+                      <Link href={project.link} target="_blank">
+                        <BsArrowUpRightSquare
+                          size={30}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer"
+                        />
+                      </Link>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </Fade>
             </div>
           );
         })}
