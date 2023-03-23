@@ -13,7 +13,7 @@ const ProjectsSection = () => {
     {
       name: "Movie Reviews",
       description: lang.moviereviews.description,
-      image: "/moviereviews.png",
+      image: "/movie-reviews.png",
       github: "https://github.com/agustinmfran/movie_reviews_frontend",
       link: "https://movie-reviews-frontend.vercel.app/",
     },
