@@ -53,10 +53,14 @@ const es = {
       description:
         "Sitio de noticias hecho HTML, CSS y JavaScript. Estático y muy simple.",
     },
+    moviereviews: {
+      description:
+        "Movie reviews MERN hecho con MongoDB, Express, React y Node. Estilado con Tailwind. CRUD de reviews y login simple.",
+    },
   },
   bibloSection: {
     description:
-      "Tienda ecommerce de libros hecha usando Node, Express, JavaScript, Tailwind y base de datos MySQL. Almacena usuarios, productos, compras, carrito de compras y checkout. Autenticación de usuario, panel de usuario y cookies de sesión.",
+      "Tienda ecommerce de libros hecha usando Node, Express, JavaScript, Tailwind y base de datos MySQL. Almacena usuarios, productos, compras, carrito de compras y checkout. Autenticación de usuario, panel de usuario y cookies de sesión. No ha sido deployada.",
   },
 };
 

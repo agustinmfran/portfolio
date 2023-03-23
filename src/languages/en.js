@@ -53,10 +53,14 @@ const en = {
       description:
         "News website made in HTML, CSS and JavaScript. Static and very simple.",
     },
+    moviereviews: {
+      description:
+        "Movie reviews MERN project made using MongoDB, Express, React and Node. Styled using Tailwind. CRUD reviews and simple login.",
+    },
   },
   bibloSection: {
     description:
-      "Ecommerce bookstore shop made using Node, Express, JavaScript, Tailwind and MySQL database. Stores users, products, purchases, shopping cart and checkout. User authentication, user panel, admin panel and session cookies.",
+      "Ecommerce bookstore shop made using Node, Express, JavaScript, Tailwind and MySQL database. Stores users, products, purchases, shopping cart and checkout. User authentication, user panel, admin panel and session cookies. Not deployed.",
   },
 };
 

@@ -11,11 +11,11 @@ const ProjectsSection = () => {
   const lang = locale === "es" ? es.projectsSection : en.projectsSection;
   const projects = [
     {
-      name: "Pokeapi",
-      description: lang.pokeapi.description,
-      image: "/poke.jpg",
-      github: "https://github.com/agustinmfran/pokedex",
-      link: "https://pokedex-bice-five.vercel.app/",
+      name: "Movie Reviews",
+      description: lang.moviereviews.description,
+      image: "/moviereviews.png",
+      github: "https://github.com/agustinmfran/movie_reviews_frontend",
+      link: "https://movie-reviews-frontend.vercel.app/",
     },
     {
       name: "Biblo",
@@ -25,13 +25,6 @@ const ProjectsSection = () => {
       link: "/projects/biblo",
     },
     {
-      name: "MOVIEfinder",
-      description: lang.moviefinder.description,
-      image: "/movie.jpg",
-      github: "https://github.com/agustinmfran/movie-finder",
-      link: "https://movie-finder-mu.vercel.app/",
-    },
-    {
       name: "Portfolio",
       description: lang.portfolio.description,
       image: "/portfolio.png",
@@ -39,11 +32,25 @@ const ProjectsSection = () => {
       link: "https://portolio-pau.vercel.app/",
     },
     {
+      name: "MOVIEfinder",
+      description: lang.moviefinder.description,
+      image: "/movie.jpg",
+      github: "https://github.com/agustinmfran/movie-finder",
+      link: "https://movie-finder-mu.vercel.app/",
+    },
+    {
       name: "ToDoLIST",
       description: lang.todolist.description,
       image: "/todo.png",
       github: "https://github.com/agustinmfran/react-todolist",
       link: "https://react-todolist-lilac.vercel.app/",
+    },
+    {
+      name: "Pokeapi",
+      description: lang.pokeapi.description,
+      image: "/poke.jpg",
+      github: "https://github.com/agustinmfran/pokedex",
+      link: "https://pokedex-bice-five.vercel.app/",
     },
     {
       name: "Technews",
