@@ -37,6 +37,10 @@ const es = {
       description:
         "Proyecto ecommerce hecho usando Node, Express, JS, Tailwind y MySQL. Tienda de libros con user authentication, carro, checkout y admin panel.",
     },
+    lemon: {
+      description:
+        "Proyecto web de restaurante hecho en React para la certificación de Meta Frontend Professional Certification.",
+    },
     moviefinder: {
       description:
         "Simple buscador de peliculas. Trae data y muestra los detalles de las peliculas populares. Hecho con Next.js, Tailwind y TMDB API.",

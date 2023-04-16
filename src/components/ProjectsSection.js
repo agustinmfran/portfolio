@@ -32,6 +32,13 @@ const ProjectsSection = () => {
       link: "https://portolio-pau.vercel.app/",
     },
     {
+      name: "Little Lemon",
+      description: lang.lemon.description,
+      image: "/lemon.png",
+      github: "https://github.com/agustinmfran/little-lemon-restaurant",
+      link: "https://little-lemon-restaurant-tan.vercel.app/",
+    },
+    {
       name: "MOVIEfinder",
       description: lang.moviefinder.description,
       image: "/movie.jpg",
