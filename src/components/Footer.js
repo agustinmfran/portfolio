@@ -1,4 +1,5 @@
 import { Link } from "react-scroll/modules";
+import { useRouter } from "next/router";
 import {
   AiOutlineGithub,
   AiOutlineLinkedin,
@@ -7,6 +8,11 @@ import {
 } from "react-icons/ai";
 
 const Footer = () => {
+  const { locale } = useRouter();
+  const lang =
+    locale === "es"
+      ? "https://drive.google.com/file/d/1hcpG0O9aut9AqOqLTv1HJuzE2RTCe5we/view?usp=sharing"
+      : "https://drive.google.com/file/d/1Hj0VKwQVlTWjiC3sptIs2CJmc6yWqXv3/view?usp=sharing";
   return (
     <footer className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
@@ -58,7 +64,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/13t1BWK--iZ3O-ZAGixGgkE7I9HdAFXCM/view?usp=sharing"
+            href={lang}
             download="Agustin Franco CV.pdf"
             rel="noreferrer"
             target="_blank"
