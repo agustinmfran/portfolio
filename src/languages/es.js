@@ -8,7 +8,7 @@ const es = {
     title: "Hola, soy Agustín.",
     im: "Soy",
     p1: " orientado a ",
-    p2: ". Viviendo en Toulouse, Francia. Trabajando para crear un mejor código que haga la vida más fácil y significativa.",
+    p2: ". Basado en La Plata, Buenos Aires, Argentina. Trabajando para crear un mejor código que haga la vida más fácil y significativa.",
     projects: "Proyectos",
   },
   aboutSection: {
@@ -19,7 +19,7 @@ const es = {
     span2: " motivado",
     and: "y",
     span3: " proactivo",
-    p2: ". Viviendo actualmente en Toulouse, Francia.",
+    p2: ". Viviendo actualmente en La Plata, Buenos Aires, Argentina.",
     p3: "Me gradué en Digital House Coding School, Buenos Aires, en 2020. He estado trabajando en proyectos personales y freelance desde entonces, utilizando tecnologías que me resultan interesantes como: Node, JavaScript, React & NextJS. Tengo nivel de inglés B2 upper intermediate y español nativo.",
     p4: "Tengo una amplia gama de hobbies y pasiones que me mantienen ocupado. Desde deportes, jugar videojuegos, viajar, hasta escuchar música y DJing también. Siempre buscando nuevas experiencias. Me encanta mantenerme comprometido y aprender cosas nuevas.",
     p5: "Creo que nunca deberías",

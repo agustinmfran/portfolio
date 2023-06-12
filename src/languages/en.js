@@ -8,7 +8,7 @@ const en = {
     title: "Hi, I'm Agustín.",
     im: "I'm a",
     p1: " focused on ",
-    p2: ". Living in Toulouse, France. Working towards creating a better code that makes life easier and more meaningful.",
+    p2: ". Living in La Plata, Buenos Aires, Argentina. Working towards creating a better code that makes life easier and more meaningful.",
     projects: "Projects",
   },
   aboutSection: {
@@ -19,7 +19,7 @@ const en = {
     span2: " self-motivated",
     and: "and",
     span3: " proactive ",
-    p2: "JR Fullstack web Developer based in Toulouse, France.",
+    p2: "JR Fullstack web Developer based in La Plata, Buenos Aires, Argentina.",
     p3: "I graduated from Digital House Coding School, Buenos Aires, in 2020. I have been working in personal and freelance projects since then, using technologies I find interesting such as: Node, JavaScript, React & NextJS. I have B2 upper intermediate English level and native Spanish.",
     p4: "I have a wide range of hobbies and passions that keep me busy. From sports, playing videogames, traveling, to listening to music and DJing too. Always seeking new experiences. Love to keep myself engaged and learning new things.",
     p5: "I believe that you should",
