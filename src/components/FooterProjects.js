@@ -20,7 +20,7 @@ const FooterProjects = () => {
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 ">
           <Link
             to="project"
-            className="hover:underline cursor-pointer"
+            className="hover:underline hover:text-black cursor-pointer"
             spy={true}
             smooth={true}
             offset={-100}
@@ -36,7 +36,7 @@ const FooterProjects = () => {
             target="_blank"
           >
             <AiOutlineGithub
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 "
+              className="hover:-translate-y-2 hover:text-black transition-transform cursor-pointer text-neutral-500 "
               size={30}
             />
           </a>
@@ -47,7 +47,7 @@ const FooterProjects = () => {
             target="_blank"
           >
             <AiOutlineLinkedin
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 "
+              className="hover:-translate-y-2 hover:text-black transition-transform cursor-pointer text-neutral-500 "
               size={30}
             />
           </a>
@@ -58,7 +58,7 @@ const FooterProjects = () => {
             target="_blank"
           >
             <AiOutlineMail
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500"
+              className="hover:-translate-y-2 hover:text-black transition-transform cursor-pointer text-neutral-500"
               size={30}
             />
           </a>
@@ -70,7 +70,7 @@ const FooterProjects = () => {
             target="_blank"
           >
             <AiOutlineCloudDownload
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500"
+              className="hover:-translate-y-2 hover:text-black transition-transform cursor-pointer text-neutral-500"
               size={30}
             />
           </a>

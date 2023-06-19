@@ -50,7 +50,7 @@ export default function Header() {
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <Rslink
                 to="home"
-                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-teal-500 hover:transition duration-300 cursor-pointer"
+                className="block lg:inline-block text-neutral-900  hover:text-lg hover:font-bold hover:text-teal-500 hover:transition duration-200 cursor-pointer"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -62,7 +62,7 @@ export default function Header() {
               </Rslink>
               <Rslink
                 to="about"
-                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-teal-500 hover:transition duration-300 cursor-pointer"
+                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-teal-500 hover:font-bold hover:transition duration-200 cursor-pointer"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -74,7 +74,7 @@ export default function Header() {
               </Rslink>
               <Rslink
                 to="projects"
-                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-teal-500 hover:transition duration-300 cursor-pointer"
+                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-teal-500 hover:font-bold hover:transition duration-200 cursor-pointer"
                 activeClass="active"
                 spy={true}
                 smooth={true}

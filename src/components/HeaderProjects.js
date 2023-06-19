@@ -43,7 +43,7 @@ export default function HeaderProjects() {
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <Link
                 href="/"
-                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-teal-500 hover:transition duration-300 cursor-pointer"
+                className="block lg:inline-block text-neutral-900 hover:font-bold hover:text-lg hover:text-teal-500 hover:transition duration-200 cursor-pointer"
                 onClick={() => setNavbar(!navbar)}
               >
                 {lang.home}
