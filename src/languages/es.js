@@ -14,7 +14,7 @@ const es = {
   aboutSection: {
     title: "Sobre mí",
     title2: "Conoceme un poco más",
-    p1: "Hola, mi nombre es Agustín y soy un JR Fullstack web Developer ",
+    p1: "Hola, mi nombre es Agustín y soy Fullstack web Developer ",
     span1: "ambicioso",
     span2: " motivado",
     and: "y",

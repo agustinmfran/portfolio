@@ -27,7 +27,7 @@ const InfoSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             {lang.im}{" "}
             <span className="font-semibold text-teal-600">
-              JR Fullstack web Developer
+              Fullstack web Developer
             </span>
             {lang.p1}
             <span className="font-semibold text-teal-600">Frontend</span>

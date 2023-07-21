@@ -19,7 +19,7 @@ const en = {
     span2: " self-motivated",
     and: "and",
     span3: " proactive ",
-    p2: "JR Fullstack web Developer based in La Plata, Buenos Aires, Argentina.",
+    p2: "Fullstack web Developer based in La Plata, Buenos Aires, Argentina.",
     p3: "I graduated from Digital House Coding School, Buenos Aires, in 2020. I have been working in personal and freelance projects since then, using technologies I find interesting such as: Node, JavaScript, React & NextJS. I have B2 upper intermediate English level and native Spanish.",
     p4: "I have a wide range of hobbies and passions that keep me busy. From sports, playing videogames, traveling, to listening to music and DJing too. Always seeking new experiences. Love to keep myself engaged and learning new things.",
     p5: "I believe that you should",
