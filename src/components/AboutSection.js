@@ -49,7 +49,7 @@ const AboutSection = () => {
             <br />
             <p>
               {lang.p5}{" "}
-              <span className="font-bold text-teal-500">{lang.span4}</span>{" "}
+              <span className="font-bold text-black">{lang.span4}</span>{" "}
               {lang.p6}
             </p>
           </div>
@@ -73,11 +73,11 @@ const AboutSection = () => {
             </div>
             <div className="flex justify-center items-center">
               <Image
-                src="/about.png"
-                alt="Agustin"
-                width={300}
-                height={300}
-                className="hidden md:block md:relative md:bottom-4 md:z-0"
+                src="/meta.png"
+                alt="about"
+                width={180}
+                height={180}
+                className="block mt-16 md:relative md:top-16 md:z-0"
               />
             </div>
           </div>
