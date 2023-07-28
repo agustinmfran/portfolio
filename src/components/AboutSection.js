@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import Fade from "react-reveal/Fade";
+import Bounce from "react-reveal/Bounce";
 import es from "../languages/es";
 import en from "../languages/en";
 
@@ -74,7 +74,7 @@ const AboutSection = () => {
               </div>
             </div>
             <div className="flex justify-center items-center">
-              <Fade bottom>
+              <Bounce bottom>
                 <Link
                   href="https://coursera.org/share/b3e3bbb596cab83af3ed0a5ae8891fad"
                   target="_blank"
@@ -87,7 +87,7 @@ const AboutSection = () => {
                     className="mt-16 md:block md:relative md:top-16 md:z-0"
                   />
                 </Link>
-              </Fade>
+              </Bounce>
             </div>
           </div>
         </div>
