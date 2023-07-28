@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
+import Link from "next/link";
+import Fade from "react-reveal/Fade";
 import es from "../languages/es";
 import en from "../languages/en";
 
@@ -49,7 +51,7 @@ const AboutSection = () => {
             <br />
             <p>
               {lang.p5}{" "}
-              <span className="font-bold text-black">{lang.span4}</span>{" "}
+              <span className="font-bold text-black4">{lang.span4}</span>{" "}
               {lang.p6}
             </p>
           </div>
@@ -72,13 +74,20 @@ const AboutSection = () => {
               </div>
             </div>
             <div className="flex justify-center items-center">
-              <Image
-                src="/meta.png"
-                alt="about"
-                width={180}
-                height={180}
-                className="block mt-16 md:relative md:top-16 md:z-0"
-              />
+              <Fade right>
+                <Link
+                  href="https://coursera.org/share/b3e3bbb596cab83af3ed0a5ae8891fad"
+                  target="_blank"
+                >
+                  <Image
+                    src="/meta.png"
+                    alt="about"
+                    width={180}
+                    height={180}
+                    className="block mt-16 md:relative md:top-16 md:z-0"
+                  />
+                </Link>
+              </Fade>
             </div>
           </div>
         </div>
