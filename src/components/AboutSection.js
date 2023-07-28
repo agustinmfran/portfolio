@@ -84,7 +84,7 @@ const AboutSection = () => {
                     alt="about"
                     width={180}
                     height={180}
-                    className="block mt-16 md:relative md:top-16 md:z-0"
+                    className="mt-16 md:block md:relative md:top-16 md:z-0"
                   />
                 </Link>
               </Fade>
