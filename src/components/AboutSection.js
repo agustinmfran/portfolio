@@ -74,7 +74,7 @@ const AboutSection = () => {
               </div>
             </div>
             <div className="flex justify-center items-center">
-              <Fade right>
+              <Fade bottom>
                 <Link
                   href="https://coursera.org/share/b3e3bbb596cab83af3ed0a5ae8891fad"
                   target="_blank"
