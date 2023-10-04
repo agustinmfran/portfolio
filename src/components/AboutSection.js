@@ -10,6 +10,7 @@ const skills = [
   "CSS",
   "JavaScript",
   "React",
+  "React Native",
   "Next.js",
   "Tailwind",
   "Bootstrap",
