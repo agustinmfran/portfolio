@@ -80,7 +80,7 @@ function Modal({ children, modal }) {
               {lang.send}
             </button>
             <div
-              className={`absolute bottom-12 text-teal-600 text-center font-semibold px-6 py-3 ${
+              className={`absolute bottom-4 md:bottom-8 text-teal-600 text-center font-semibold px-6 py-3 ${
                 sent ? null : "hidden"
               }`}
             >
