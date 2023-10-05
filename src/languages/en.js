@@ -3,6 +3,15 @@ const en = {
     home: "Home",
     about: "About",
     projects: "Projects",
+    contact: "Contact",
+  },
+  modal: {
+    send: "Send",
+    success: "Your message was sent successfully.",
+    name: "Name",
+    email: "Email",
+    subject: "Subject",
+    message: "Message",
   },
   infoSection: {
     title: "Hi, I'm Agustín.",

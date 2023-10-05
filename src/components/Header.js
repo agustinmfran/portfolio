@@ -1,18 +1,35 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/router";
+import Image from "next/image";
 import es from "../languages/es";
 import en from "../languages/en";
 import Selector from "./Selector";
 import { Link as Rslink } from "react-scroll/modules";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
+import Modal from "./Modal";
 
 export default function Header() {
   const [navbar, setNavbar] = useState(false);
+  const [modal, setModal] = useState(false);
   const { locale } = useRouter();
   const lang = locale === "es" ? es.header : en.header;
+  const contact = () => {
+    setModal(!modal);
+    setNavbar(!navbar);
+  };
   return (
     <header className="w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow bg-white ">
+      <Modal modal={modal}>
+        <Image
+          src="/x-icon.png"
+          alt="icon"
+          width={40}
+          height={40}
+          onClick={() => setModal(!modal)}
+          className="cursor-pointer pt-2 pr-2"
+        />
+      </Modal>
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -83,6 +100,18 @@ export default function Header() {
                 onClick={() => setNavbar(!navbar)}
               >
                 {lang.projects}
+              </Rslink>
+              <Rslink
+                to="home"
+                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-teal-500 hover:font-bold hover:transition duration-200 cursor-pointer"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                onClick={() => contact()}
+              >
+                {lang.contact}
               </Rslink>
               <Selector />
             </div>

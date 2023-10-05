@@ -3,6 +3,15 @@ const es = {
     home: "Inicio",
     about: "Sobre mí",
     projects: "Proyectos",
+    contact: "Contacto",
+  },
+  modal: {
+    send: "Enviar",
+    success: "Su mensaje fue enviado con éxito.",
+    name: "Nombre",
+    email: "Email",
+    subject: "Asunto",
+    message: "Mensaje",
   },
   infoSection: {
     title: "Hola, soy Agustín.",
