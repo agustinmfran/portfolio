@@ -7,6 +7,12 @@ import emailjs from "@emailjs/browser";
 
 function Modal({ children, modal }) {
   const [sent, setSent] = useState(false);
+  const [values, setValues] = useState({
+    user_name: "",
+    user_email: "",
+    user_subject: "",
+    message: "",
+  });
   const form = useRef();
   const { locale } = useRouter();
   const lang = locale === "es" ? es.modal : en.modal;
@@ -30,6 +36,16 @@ function Modal({ children, modal }) {
       );
   };
 
+  const handleChange = (e) => {
+    const { target } = e;
+    const { name, value } = target;
+    const newValues = {
+      ...values,
+      [name]: value,
+    };
+    setValues(newValues);
+  };
+
   return (
     <article
       className={`fixed z-50 flex items-center justify-center w-full top-0 left-0 min-h-screen bg-[rgba(0,0,0,0.3)] ${
@@ -47,38 +63,59 @@ function Modal({ children, modal }) {
               <input
                 type="text"
                 name="user_name"
+                value={values.name}
                 placeholder={lang.name}
+                onChange={handleChange}
                 className="border-b-2 border-teal-500 outline-none"
               />
               <input
                 type="email"
                 name="user_email"
                 placeholder={lang.email}
+                onChange={handleChange}
                 className="border-b-2 border-teal-500 outline-none"
               />
               <input
                 type="text"
                 name="user_subject"
+                value={values.subject}
                 placeholder={lang.subject}
+                onChange={handleChange}
                 className="border-b-2 border-teal-500 outline-none"
               />
               <div className="flex justify-start items-start w-full">
                 <textarea
                   name="message"
+                  value={values.message}
                   placeholder={lang.message}
+                  onChange={handleChange}
                   className="w-full outline-none resize-none"
                 />
               </div>
             </div>
             <div className="absolute right-0 top-0">{children}</div>
-            <button
-              type="submit"
-              className={`text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded-b-lg md:rounded shadow hover:bg-teal-700 cursor-pointer w-full md:w-36 md:mb-16 ${
-                sent ? "hidden" : null
-              }`}
-            >
-              {lang.send}
-            </button>
+            {!values.user_name ||
+            !values.user_email ||
+            !values.user_subject ||
+            !values.message ? (
+              <div
+                type="submit"
+                className={`text-neutral-100 font-semibold text-center px-6 py-3 bg-teal-600 rounded-b-lg opacity-5 md:rounded shadow w-full md:w-36 md:mb-16 ${
+                  sent ? "hidden" : null
+                }`}
+              >
+                {lang.send}
+              </div>
+            ) : (
+              <button
+                type="submit"
+                className={`text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded-b-lg md:rounded shadow hover:bg-teal-700 cursor-pointer w-full md:w-36 md:mb-16 ${
+                  sent ? "hidden" : null
+                }`}
+              >
+                {lang.send}
+              </button>
+            )}
             <div
               className={`absolute bottom-4 md:bottom-8 text-teal-600 text-center font-semibold px-6 py-3 ${
                 sent ? null : "hidden"
