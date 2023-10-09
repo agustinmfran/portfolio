@@ -70,6 +70,10 @@ const en = {
       description:
         "Movie reviews MERN project made using MongoDB, Express, React and Node. Styled using Tailwind. CRUD reviews and simple login.",
     },
+    flexy: {
+      description:
+        "Login page for technical skill test made using React. Responsive. Input and form validation.",
+    },
   },
   bibloSection: {
     description:

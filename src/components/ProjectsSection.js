@@ -11,6 +11,13 @@ const ProjectsSection = () => {
   const lang = locale === "es" ? es.projectsSection : en.projectsSection;
   const projects = [
     {
+      name: "Flexy Login",
+      description: lang.flexy.description,
+      image: "/flexy.png",
+      github: "https://github.com/agustinmfran/prueba-tecnica-flexy",
+      link: "https://prueba-tecnica-flexy-delta.vercel.app/",
+    },
+    {
       name: "Movie Reviews",
       description: lang.moviereviews.description,
       image: "/movie-reviews.png",
