@@ -74,7 +74,7 @@ const AboutSection = () => {
                 })}
               </div>
             </div>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-left items-center">
               <Bounce bottom>
                 <Link
                   href="https://coursera.org/share/b3e3bbb596cab83af3ed0a5ae8891fad"
@@ -82,7 +82,19 @@ const AboutSection = () => {
                 >
                   <Image
                     src="/meta.png"
-                    alt="about"
+                    alt="meta"
+                    width={180}
+                    height={180}
+                    className="mt-16 md:block md:relative md:top-16 md:z-0"
+                  />
+                </Link>
+                <Link
+                  href="https://www.credly.com/badges/f773c74f-15d9-4112-a0e4-77e5f5b7d086/public_url"
+                  target="_blank"
+                >
+                  <Image
+                    src="/remote.png"
+                    alt="remote"
                     width={180}
                     height={180}
                     className="mt-16 md:block md:relative md:top-16 md:z-0"
