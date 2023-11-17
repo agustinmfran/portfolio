@@ -16,6 +16,7 @@ const skills = [
   "Bootstrap",
   "Node",
   "Express",
+  "AWS",
   "Redux",
   "MongoDB",
   "MySQL",
@@ -83,6 +84,18 @@ const AboutSection = () => {
                   <Image
                     src="/meta.png"
                     alt="meta"
+                    width={180}
+                    height={180}
+                    className="mt-16 md:block md:relative md:top-16 md:z-0"
+                  />
+                </Link>
+                <Link
+                  href="https://www.credly.com/badges/b8d7e4ce-bde4-4fc6-8545-c9dd0ee89634/public_url"
+                  target="_blank"
+                >
+                  <Image
+                    src="/aws.png"
+                    alt="aws"
                     width={180}
                     height={180}
                     className="mt-16 md:block md:relative md:top-16 md:z-0"
