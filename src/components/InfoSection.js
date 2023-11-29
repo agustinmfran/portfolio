@@ -30,8 +30,6 @@ const InfoSection = () => {
               Frontend React Developer
             </span>
             {lang.p1}
-            <span className="font-semibold text-teal-600">Frontend</span>
-            {lang.p2}
           </p>
           <Link
             to="projects"

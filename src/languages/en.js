@@ -16,8 +16,7 @@ const en = {
   infoSection: {
     title: "Hi, I'm Agustín.",
     im: "I'm a",
-    p1: " focused on ",
-    p2: ". Living in La Plata, Buenos Aires, Argentina. Working towards creating a better code that makes life easier and more meaningful.",
+    p1: " based in La Plata, Buenos Aires, Argentina. Working towards creating a better code that makes life easier and more meaningful.",
     projects: "Projects",
   },
   aboutSection: {
