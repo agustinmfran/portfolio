@@ -73,6 +73,10 @@ const es = {
       description:
         "Login para prueba técnica hecho con React. Responsive. Input y form validation.",
     },
+    wild: {
+      description:
+        "Web estatica desplegada en AWS Amplify usando AWS CodeCommit.",
+    },
   },
   bibloSection: {
     description:

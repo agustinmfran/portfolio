@@ -11,6 +11,13 @@ const ProjectsSection = () => {
   const lang = locale === "es" ? es.projectsSection : en.projectsSection;
   const projects = [
     {
+      name: "Wild Rydes",
+      description: lang.wild.description,
+      image: "/wild.png",
+      github: "https://github.com/agustinmfran/",
+      link: "https://main.d1uqo1yf8noi6f.amplifyapp.com/",
+    },
+    {
       name: "Flexy Login",
       description: lang.flexy.description,
       image: "/flexy.png",

@@ -73,6 +73,10 @@ const en = {
       description:
         "Login page for technical skill test made using React. Responsive. Input and form validation.",
     },
+    wild: {
+      description:
+        "Simple static website deployed in AWS Amplify using AWS CodeCommit.",
+    },
   },
   bibloSection: {
     description:
