@@ -75,7 +75,7 @@ const es = {
     },
     wild: {
       description:
-        "Web estatica desplegada en AWS Amplify usando AWS CodeCommit.",
+        "Web estática desplegada en AWS Amplify usando AWS CodeCommit.",
     },
   },
   bibloSection: {
