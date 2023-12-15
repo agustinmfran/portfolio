@@ -75,7 +75,7 @@ const es = {
     },
     wild: {
       description:
-        "Web estática desplegada en AWS Amplify usando AWS CodeCommit para el control de versión, AWS Cognito para la autenticación de usuarios, AWS Lambda, DynamoDB y API Gateway para las requests de los usuarios.",
+        "Serverless web app desplegada en AWS Amplify usando AWS CodeCommit para el control de versión, AWS Cognito para la autenticación de usuarios, AWS Lambda, Amazon DynamoDB y Amazon API Gateway para las requests de los usuarios.",
     },
   },
   bibloSection: {

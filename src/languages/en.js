@@ -75,7 +75,7 @@ const en = {
     },
     wild: {
       description:
-        "Static website deployed in AWS Amplify using AWS CodeCommit for version control, AWS Cognito for user authentication, AWS Lambda, DynamoDB and API Gateway for user requests.",
+        "Serverless web app deployed in AWS Amplify using AWS CodeCommit for version control, AWS Cognito for user authentication, AWS Lambda, Amazon DynamoDB and Amazon API Gateway for user requests.",
     },
   },
   bibloSection: {
