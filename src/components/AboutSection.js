@@ -101,6 +101,18 @@ const AboutSection = () => {
                     className="mt-16 md:block md:relative md:top-16 md:z-0"
                   />
                 </Link>
+                <Link
+                  href="https://www.credly.com/badges/968ffc8d-5fcf-4934-a712-78a8a14129ce/public_url"
+                  target="_blank"
+                >
+                  <Image
+                    src="/well-architected-proficient.png"
+                    alt="well-architected-proficient"
+                    width={180}
+                    height={180}
+                    className="mt-16 md:block md:relative md:top-16 md:z-0"
+                  />
+                </Link>
               </Bounce>
             </div>
           </div>
