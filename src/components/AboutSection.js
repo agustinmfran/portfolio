@@ -6,23 +6,20 @@ import es from "../languages/es";
 import en from "../languages/en";
 
 const skills = [
+  "AWS",
   "HTML",
   "CSS",
   "JavaScript",
-  "React",
-  "React Native",
-  "Next.js",
-  "Tailwind",
-  "Bootstrap",
   "Node",
-  "Express",
-  "AWS",
-  "Redux",
-  "MongoDB",
-  "MySQL",
-  "Git",
-  "GitHub",
-  "APIs",
+  "React",
+  "SQL",
+  "NoSQL",
+  "Docker",
+  "Kubernetes",
+  "API",
+  "HubSpot CRM",
+  "Jira",
+  "Scrum",
 ];
 
 const AboutSection = () => {
@@ -51,10 +48,12 @@ const AboutSection = () => {
             <br />
             <p>{lang.p4}</p>
             <br />
+            <p>{lang.p5}</p>
+            <br />
             <p>
-              {lang.p5}{" "}
+              {lang.p6}{" "}
               <span className="font-bold text-black4">{lang.span4}</span>{" "}
-              {lang.p6}
+              {lang.p7}
             </p>
           </div>
           <div className="md:w-1/2">

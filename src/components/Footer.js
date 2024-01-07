@@ -11,8 +11,8 @@ const Footer = () => {
   const { locale } = useRouter();
   const lang =
     locale === "es"
-      ? "https://drive.google.com/file/d/1RRtmjVgUInu2NaCw2ANBOnWJGUJlMzwz/view?usp=sharing"
-      : "https://drive.google.com/file/d/16iAEZLuofMTPTPIvwYDGz9X20XT6ow6y/view?usp=sharing";
+      ? "https://drive.google.com/file/d/1jngjXQ-NwaS5fgEl7Ugz3XqPkQQkmuul/view?usp=sharing"
+      : "https://drive.google.com/file/d/1qLCc36QSg0xABsROwwuDlnO678a-q013/view?usp=sharing";
   return (
     <footer className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
