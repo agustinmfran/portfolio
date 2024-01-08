@@ -32,10 +32,9 @@ const es = {
     p2: ". Viviendo actualmente en La Plata, Buenos Aires, Argentina.",
     p3: "Me gradué en Digital House Coding School, Buenos Aires, en 2020. Estudié Licenciatura en Informática durante dos años y actualmente estoy estudiando Cloud Administration en Teclab Instituto Técnico Superior. Soy AWS Cloud Practitioner persiguiendo más certificaciones AWS. Tengo nivel de inglés B2 upper intermediate y español nativo. ",
     p4: "Trabajo como Technical Implementation Specialist en HAL Company utilizando HubSpot CRM dentro del equipo técnico, aplicando mi conocimiento de desarrollo, infraestructura y relaciones con el cliente.",
-    p5: "Tengo una amplia gama de hobbies y pasiones que me mantienen ocupado. Desde deportes, jugar videojuegos, viajar, hasta escuchar música y DJing también. Siempre buscando nuevas experiencias. Me encanta mantenerme comprometido y aprender cosas nuevas.",
-    p6: "Creo que nunca deberías",
+    p5: "Creo que nunca deberías",
     span4: "dejar de crecer",
-    p7: "y eso es lo que me esfuerzo por hacer. Tengo pasión por latecnología y el deseo de superar siempre los límites de lo posible. Me entusiasma ver adónde me lleva mi carrera y estoy siempre abierto a nuevas oportunidades.",
+    p6: "y eso es lo que me esfuerzo por hacer. Tengo pasión por latecnología y el deseo de superar siempre los límites de lo posible. Me entusiasma ver adónde me lleva mi carrera y estoy siempre abierto a nuevas oportunidades.",
     skills: "Habilidades",
   },
   projectsSection: {

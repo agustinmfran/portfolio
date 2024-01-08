@@ -32,10 +32,9 @@ const en = {
     p2: "Cloud enthusiast based in La Plata, Buenos Aires, Argentina.",
     p3: "I graduated from Digital House Coding School, Buenos Aires, in 2020. I studied Computer Science for two years and now I'm currently studying Cloud Administration at Teclab Instituto Técnico Superior. I'm an AWS Cloud Practitioner pursuing more AWS certifications. I have B2 upper intermediate English level and native Spanish.",
     p4: "I work as a Technical Implementation Specialist at HAL Company using HubSpot CRM within the technical team, applying my knowledge of development, infrastructure and customer relations.",
-    p5: "I have a wide range of hobbies and passions that keep me busy. From sports, playing videogames, traveling, to listening to music and DJing too. Always seeking new experiences. Love to keep myself engaged and learning new things.",
-    p6: "I believe that you should",
+    p5: "I believe that you should",
     span4: "never stop growing",
-    p7: "and that's what I strive to do, I have a passion for technology and a desire to always push the limits of what is possible. I am excited to see where my career takes me and am always open to new opportunities.",
+    p6: "and that's what I strive to do, I have a passion for technology and a desire to always push the limits of what is possible. I am excited to see where my career takes me and am always open to new opportunities.",
     skills: "My Skills",
   },
   projectsSection: {

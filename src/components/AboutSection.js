@@ -48,12 +48,10 @@ const AboutSection = () => {
             <br />
             <p>{lang.p4}</p>
             <br />
-            <p>{lang.p5}</p>
-            <br />
             <p>
-              {lang.p6}{" "}
+              {lang.p5}{" "}
               <span className="font-bold text-black4">{lang.span4}</span>{" "}
-              {lang.p7}
+              {lang.p6}
             </p>
           </div>
           <div className="md:w-1/2">
