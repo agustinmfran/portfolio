@@ -18,7 +18,7 @@ const es = {
     im: "Soy",
     p1: " y un ",
     span: "Cloud Practitioner",
-    p2: " con background en desarrollo basado en La Plata, Buenos Aires, Argentina. Trabajando para brindar soluciones digitales y potenciar el desarrollo.",
+    p2: " con background en desarrollo viviendo en Buenos Aires, Argentina. Trabajando para brindar soluciones digitales y potenciar el desarrollo.",
     projects: "Proyectos",
   },
   aboutSection: {

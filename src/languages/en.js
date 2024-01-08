@@ -18,7 +18,7 @@ const en = {
     im: "I'm a",
     p1: " and a ",
     span: "Cloud Practitioner",
-    p2: "  with development background based in La Plata, Buenos Aires, Argentina. Working towards creating digital solutions and enhance development.",
+    p2: "  with development background based in Buenos Aires, Argentina. Working towards creating digital solutions and enhance development.",
     projects: "Projects",
   },
   aboutSection: {
