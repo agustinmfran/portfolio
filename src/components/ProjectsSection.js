@@ -73,13 +73,6 @@ const ProjectsSection = () => {
       github: "https://github.com/agustinmfran/pokedex",
       link: "https://pokedex-bice-five.vercel.app/",
     },
-    {
-      name: "Technews",
-      description: lang.technews.description,
-      image: "/technews.png",
-      github: "https://github.com/agustinmfran/technews",
-      link: "https://technews-phi.vercel.app/",
-    },
   ];
   return (
     <section id="projects">

@@ -63,10 +63,6 @@ const en = {
       description:
         "Simple to do list CRUD made with React and Tailwind, using Redux and React Router.",
     },
-    technews: {
-      description:
-        "News website made in HTML, CSS and JavaScript. Static and very simple.",
-    },
     moviereviews: {
       description:
         "Movie reviews MERN project made using MongoDB, Express, React and Node. Styled using Tailwind. CRUD reviews and simple login.",
