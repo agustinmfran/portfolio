@@ -5,18 +5,35 @@ import Bounce from "react-reveal/Bounce";
 import es from "../languages/es";
 import en from "../languages/en";
 
-const skills = [
+const awsSkills = [
   "AWS",
+  "EC2",
+  "Lambda",
+  "S3",
+  "RDS",
+  "DynamoDB",
+  "CloudFormation",
+  "Amplify",
+  "Cognito",
+];
+
+const devSkills = [
   "HTML",
   "CSS",
   "JavaScript",
   "Node",
   "React",
+  "Next.js",
+  "Tailwind CSS",
+];
+
+const miscSkills = [
   "SQL",
   "NoSQL",
   "Docker",
   "Kubernetes",
   "API",
+  "GIT",
   "HubSpot CRM",
   "Jira",
   "Scrum",
@@ -60,7 +77,33 @@ const AboutSection = () => {
                 {lang.skills}
               </h1>
               <div className="flex flex-wrap flex-row justify-center md:justify-start">
-                {skills.map((skill, index) => {
+                {awsSkills.map((skill, index) => {
+                  return (
+                    <p
+                      key={index}
+                      className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                    >
+                      {skill}
+                    </p>
+                  );
+                })}
+              </div>
+              <hr className="w-2 h-0.5 mx-auto my-4 bg-black border-0 rounded" />
+              <div className="flex flex-wrap flex-row justify-center md:justify-start">
+                {devSkills.map((skill, index) => {
+                  return (
+                    <p
+                      key={index}
+                      className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                    >
+                      {skill}
+                    </p>
+                  );
+                })}
+              </div>
+              <hr className="w-2 h-0.5 mx-auto my-4 bg-black border-0 rounded" />
+              <div className="flex flex-wrap flex-row justify-center md:justify-start">
+                {miscSkills.map((skill, index) => {
                   return (
                     <p
                       key={index}
@@ -72,47 +115,47 @@ const AboutSection = () => {
                 })}
               </div>
             </div>
-            <div className="flex justify-center items-center">
-              <Bounce bottom>
-                <Link
-                  href="https://coursera.org/share/b3e3bbb596cab83af3ed0a5ae8891fad"
-                  target="_blank"
-                >
-                  <Image
-                    src="/meta.png"
-                    alt="meta"
-                    width={180}
-                    height={180}
-                    className="mt-16 md:block md:relative md:top-16 md:z-0"
-                  />
-                </Link>
-                <Link
-                  href="https://www.credly.com/badges/b8d7e4ce-bde4-4fc6-8545-c9dd0ee89634/public_url"
-                  target="_blank"
-                >
-                  <Image
-                    src="/aws.png"
-                    alt="aws"
-                    width={180}
-                    height={180}
-                    className="mt-16 md:block md:relative md:top-16 md:z-0"
-                  />
-                </Link>
-                <Link
-                  href="https://www.credly.com/badges/968ffc8d-5fcf-4934-a712-78a8a14129ce/public_url"
-                  target="_blank"
-                >
-                  <Image
-                    src="/well-architected-proficient.png"
-                    alt="well-architected-proficient"
-                    width={180}
-                    height={180}
-                    className="mt-16 md:block md:relative md:top-16 md:z-0"
-                  />
-                </Link>
-              </Bounce>
-            </div>
           </div>
+        </div>
+        <div className="flex justify-center items-center">
+          <Bounce bottom>
+            <Link
+              href="https://coursera.org/share/b3e3bbb596cab83af3ed0a5ae8891fad"
+              target="_blank"
+            >
+              <Image
+                src="/meta.png"
+                alt="meta"
+                width={180}
+                height={180}
+                className="mt-16 md:block md:relative md:top-16 md:z-0"
+              />
+            </Link>
+            <Link
+              href="https://www.credly.com/badges/b8d7e4ce-bde4-4fc6-8545-c9dd0ee89634/public_url"
+              target="_blank"
+            >
+              <Image
+                src="/aws.png"
+                alt="aws"
+                width={180}
+                height={180}
+                className="mt-16 md:block md:relative md:top-16 md:z-0"
+              />
+            </Link>
+            <Link
+              href="https://www.credly.com/badges/968ffc8d-5fcf-4934-a712-78a8a14129ce/public_url"
+              target="_blank"
+            >
+              <Image
+                src="/well-architected-proficient.png"
+                alt="well-architected-proficient"
+                width={180}
+                height={180}
+                className="mt-16 md:block md:relative md:top-16 md:z-0"
+              />
+            </Link>
+          </Bounce>
         </div>
       </div>
     </section>
