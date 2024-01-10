@@ -8,7 +8,6 @@ export default function PageLayout({ children }) {
       <Head>
         <title>Agustín Franco</title>
         <meta name="description" content="Agustín Franco Portfolio" />
-        <meta name="og:image" content="%PUBLIC_URL%/perfil.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
