@@ -18,7 +18,7 @@ const en = {
     im: "I'm a",
     p1: " and a ",
     span: "Cloud Practitioner",
-    p2: "  with development background based in Buenos Aires, Argentina. Working towards creating digital solutions.",
+    p2: "  with web development background based in Buenos Aires, Argentina. Working towards creating digital solutions.",
     projects: "Projects",
   },
   aboutSection: {
