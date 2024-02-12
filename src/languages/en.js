@@ -18,7 +18,7 @@ const en = {
     im: "I'm a",
     p1: " and a ",
     span: "Cloud Practitioner",
-    p2: "  with web development background based in Buenos Aires, Argentina. Working towards creating digital solutions.",
+    p2: "  with Fullstack Web Development background based in Buenos Aires, Argentina. Working towards creating digital solutions.",
     projects: "Projects",
   },
   aboutSection: {
@@ -30,7 +30,7 @@ const en = {
     and: "and",
     span3: " proactive ",
     p2: "Cloud enthusiast based in La Plata, Buenos Aires, Argentina.",
-    p3: "I graduated from Digital House Coding School, Buenos Aires, in 2020. I studied Computer Science for two years and now I'm currently studying Cloud Administration at Teclab Instituto Técnico Superior. I'm an AWS Cloud Practitioner pursuing more AWS certifications. I have B2 upper intermediate English level and native Spanish.",
+    p3: "I graduated as a Fullstack Web Developer from Digital House Coding School in 2020. I studied Computer Science for two years and now I'm currently studying Cloud Administration at Teclab Instituto Técnico Superior. I'm an AWS Cloud Practitioner pursuing more AWS certifications. I have B2 upper intermediate English level and native Spanish.",
     p4: "I work as a Technical Implementation Specialist at HAL Company using HubSpot CRM within the technical team, applying my knowledge of development, infrastructure and customer relations.",
     p5: "I believe that you should",
     span4: "never stop growing",
