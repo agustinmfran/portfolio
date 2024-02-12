@@ -30,6 +30,7 @@ const devSkills = [
 const miscSkills = [
   "SQL",
   "NoSQL",
+  "CI/CD",
   "Docker",
   "Kubernetes",
   "API",
