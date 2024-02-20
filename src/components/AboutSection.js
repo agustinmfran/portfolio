@@ -158,19 +158,6 @@ const AboutSection = () => {
             </Link>
           </Bounce>
         </div>
-        <div className="flex justify-center items-center mt-8 ml-8 md:mt-32">
-          <Bounce bottom>
-            <div
-              className="badge-base LI-profile-badge"
-              data-locale="es_ES"
-              data-size="medium"
-              data-theme="light"
-              data-type="HORIZONTAL"
-              data-vanity="agustinmfran"
-              data-version="v1"
-            ></div>
-          </Bounce>
-        </div>
       </div>
     </section>
   );
