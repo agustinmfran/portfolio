@@ -45,7 +45,7 @@ const AboutSection = () => {
   const lang = locale === "es" ? es.aboutSection : en.aboutSection;
   return (
     <section id="about">
-      <div className="py-12 pb-12 md:pt-16 md:pb-48">
+      <div className="py-12 pb-12 md:pt-16 md:pb-24">
         <h1 className="text-center font-bold text-4xl">
           {lang.title}{" "}
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
@@ -118,7 +118,7 @@ const AboutSection = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center ml-4">
           <Bounce bottom>
             <Link
               href="https://coursera.org/share/b3e3bbb596cab83af3ed0a5ae8891fad"
@@ -156,6 +156,19 @@ const AboutSection = () => {
                 className="mt-16 md:block md:relative md:top-16 md:z-0"
               />
             </Link>
+          </Bounce>
+        </div>
+        <div className="flex justify-center items-center mt-8 ml-8 md:mt-32">
+          <Bounce bottom>
+            <div
+              className="badge-base LI-profile-badge"
+              data-locale="es_ES"
+              data-size="medium"
+              data-theme="light"
+              data-type="HORIZONTAL"
+              data-vanity="agustinmfran"
+              data-version="v1"
+            ></div>
           </Bounce>
         </div>
       </div>

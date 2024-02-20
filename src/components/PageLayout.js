@@ -14,6 +14,12 @@ export default function PageLayout({ children }) {
       <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
         {children}
       </main>
+      <script
+        src="https://platform.linkedin.com/badges/js/profile.js"
+        async
+        defer
+        type="text/javascript"
+      ></script>
       <Footer />
     </>
   );

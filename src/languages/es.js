@@ -69,7 +69,7 @@ const es = {
     },
     flexy: {
       description:
-        "Login para prueba técnica hecho con React. Responsive. Input y form validation.",
+        "Login para prueba técnica hecho con React. Responsive. Input y form validation. Mismo diseño mobile usando React Native.",
     },
     wild: {
       description:

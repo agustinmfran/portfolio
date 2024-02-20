@@ -69,7 +69,7 @@ const en = {
     },
     flexy: {
       description:
-        "Login page for technical skill test made using React. Responsive. Input and form validation.",
+        "Login page for technical skill test made using React. Responsive. Input and form validation. Same mobile design made using React Native.",
     },
     wild: {
       description:
