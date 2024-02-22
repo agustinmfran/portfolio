@@ -16,7 +16,7 @@ const es = {
   infoSection: {
     title: "Hola, soy Agustín.",
     im: "Soy",
-    p1: " y un ",
+    p1: " y ",
     span: "Cloud Practitioner",
     p2: " con background en Desarrollo Web Fullstack viviendo en Buenos Aires, Argentina. Trabajando para brindar soluciones digitales.",
     projects: "Proyectos",
@@ -30,7 +30,7 @@ const es = {
     and: "y",
     span3: " proactivo",
     p2: ". Viviendo actualmente en La Plata, Buenos Aires, Argentina.",
-    p3: "Me gradué como Desarrollador Web Fullstack en Digital House Coding School en 2020. Estudié Licenciatura en Informática durante dos años y actualmente estoy estudiando Cloud Administration en Teclab Instituto Técnico Superior. Soy AWS Cloud Practitioner persiguiendo más certificaciones AWS. Tengo nivel de inglés B2 upper intermediate y español nativo. ",
+    p3: "Me gradué como Desarrollador Web Fullstack en Digital House Coding School en 2020. Estudié Licenciatura en Informática durante dos años y actualmente estoy estudiando Cloud Administration en Teclab Instituto Técnico Superior. Soy AWS Cloud Practitioner y actualmente estoy persiguiendo más certificaciones. Tengo nivel de inglés B2 upper intermediate y español nativo. ",
     p4: "Trabajo como Technical Implementation Specialist en HAL Company utilizando HubSpot CRM dentro del equipo técnico, aplicando mi conocimiento de desarrollo, infraestructura y relaciones con el cliente.",
     p5: "Creo que nunca deberías",
     span4: "dejar de crecer",
@@ -38,7 +38,7 @@ const es = {
     skills: "Habilidades",
   },
   projectsSection: {
-    title: "Proyectos",
+    title: "Proyectos de desarrollo",
     pokeapi: {
       description:
         "Un proyecto simple para consumir la pokeapi y mostrar los pokemones, hecho usando React y Tailwind.",

@@ -33,16 +33,6 @@ const InfoSection = () => {
             <span className="font-semibold text-teal-600">{lang.span}</span>
             {lang.p2}
           </p>
-          <Link
-            to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            {lang.projects}
-          </Link>
         </div>
       </div>
       <div className="flex flex-row justify-center ">
