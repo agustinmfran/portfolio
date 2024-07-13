@@ -156,6 +156,18 @@ const AboutSection = () => {
                 className="mt-16 md:block md:relative md:top-16 md:z-0"
               />
             </Link>
+            <Link
+              href="https://academy.hubspot.com/hubspot-certified-trainer/find-a-trainer/agustin-franco"
+              target="_blank"
+            >
+              <Image
+                src="/HubSpot.png"
+                alt="hubspot"
+                width={180}
+                height={180}
+                className="mt-16 md:block md:relative md:top-16 md:z-0"
+              />
+            </Link>
           </Bounce>
         </div>
       </div>
