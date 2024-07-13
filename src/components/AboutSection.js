@@ -25,9 +25,6 @@ const devSkills = [
   "React",
   "Next.js",
   "Tailwind CSS",
-];
-
-const miscSkills = [
   "SQL",
   "NoSQL",
   "CI/CD",
@@ -35,9 +32,20 @@ const miscSkills = [
   "Kubernetes",
   "API",
   "GIT",
-  "HubSpot CRM",
   "Jira",
   "Scrum",
+];
+
+const miscSkills = [
+  "HubSpot CRM",
+  "Content Hub",
+  "Sales Hub",
+  "Marketing Hub",
+  "Service Hub",
+  "Operations",
+  "Workflows",
+  "Pipelines",
+  "Reporting",
 ];
 
 const AboutSection = () => {
