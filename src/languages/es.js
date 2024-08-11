@@ -30,7 +30,7 @@ const es = {
     and: "y",
     span3: " proactivo",
     p2: ". Viviendo actualmente en La Plata, Buenos Aires, Argentina.",
-    p3: "Me gradué como Desarrollador Web Fullstack en Digital House Coding School en 2020. Estudié Licenciatura en Informática durante dos años en la UNLP, soy AWS Cloud Practitioner y actualmente estoy persiguiendo más certificaciones Cloud. Tengo nivel de inglés B2 upper intermediate y español nativo. ",
+    p3: "Actualmente estudiando Cloud Administration en Teclab. Me gradué como Desarrollador Web Fullstack en Digital House Coding School en 2020. Estudié Licenciatura en Informática durante dos años en la UNLP. Soy AWS Cloud Practitioner y actualmente estoy persiguiendo más certificaciones Cloud. Poseo 18x certificaciones de HubSpot incluyendo HubSpot Certified Trainer y Architecture I & II. Tengo nivel de inglés B2 upper intermediate, Español nativo y Francés básico. ",
     p4: "Trabajo como Technical Implementation Specialist en HAL Company utilizando HubSpot CRM dentro del equipo técnico, aplicando mi conocimiento de desarrollo, infraestructura y relaciones con el cliente.",
     p5: "Creo que nunca deberías",
     span4: "dejar de crecer",

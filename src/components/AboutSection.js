@@ -33,7 +33,7 @@ const devSkills = [
   "API",
   "GIT",
   "Jira",
-  "Scrum",
+  "Agile",
 ];
 
 const miscSkills = [

@@ -30,7 +30,7 @@ const en = {
     and: "and",
     span3: " proactive ",
     p2: "Cloud enthusiast based in La Plata, Buenos Aires, Argentina.",
-    p3: "I graduated as a Fullstack Web Developer from Digital House Coding School in 2020. I studied Computer Science for two years at UNLP and I am AWS Cloud Practitioner certified, currently pursuing more Cloud certifications. I have B2 upper intermediate English level and native Spanish.",
+    p3: "Currently studying Cloud Administration at Teclab. Graduated as a Fullstack Web Developer from Digital House Coding School in 2020 and studied Computer Science for two years at UNLP. AWS Cloud Practitioner certified, currently pursuing more Cloud certifications. I possess 18x HubSpot Certifications including HubSpot Certified Trainer and Architecture I & II.  I have B2 upper intermediate English level, native Spanish and basic French.",
     p4: "I work as a Technical Implementation Specialist at HAL Company using HubSpot CRM within the technical team, applying my knowledge of development, infrastructure and customer relations.",
     p5: "I believe that you should",
     span4: "never stop growing",
