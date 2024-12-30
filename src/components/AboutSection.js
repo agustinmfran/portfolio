@@ -27,6 +27,7 @@ const devSkills = [
   "Tailwind CSS",
   "SQL",
   "NoSQL",
+  "AirTable",
   "CI/CD",
   "Docker",
   "Kubernetes",
