@@ -30,7 +30,7 @@ const en = {
     and: "and",
     span3: " proactive ",
     p2: "Cloud enthusiast based in La Plata, Buenos Aires, Argentina.",
-    p3: "Currently studying Cloud Administration at Teclab. Graduated as a Fullstack Web Developer from Digital House Coding School in 2020 and studied Computer Science for two years at UNLP. AWS Cloud Practitioner certified, currently pursuing more Cloud certifications. I possess 19x HubSpot Certifications including HubSpot Certified Trainer, Architecture I & II and Revenue Operations Certified. I have B2 upper intermediate English level, native Spanish and basic French.",
+    p3: "Currently studying Cloud Administration at Teclab. Graduated as a Fullstack Web Developer from Digital House Coding School in 2020 and studied Computer Science for two years at UNLP. AWS Cloud Practitioner certified, pursuing more Cloud certifications. I possess 19x HubSpot Certifications including HubSpot Certified Trainer, Architecture I & II and Revenue Operations Certified. I have B2 upper intermediate English level, native Spanish and basic French.",
     p4: "I work as a SaaS Engineer at PropHero using mainly HubSpot, AirTable and different integrations within the operations team. Adding value by applying my technical, development and infrastructure knowledge.",
     p5: "I believe that you should",
     span4: "never stop growing",
