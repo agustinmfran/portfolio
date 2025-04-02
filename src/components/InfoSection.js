@@ -14,7 +14,7 @@ const InfoSection = () => {
         <div className="md:pl-16 md:w-1/2 md:mt-2 md:justify-center lg:pl-36">
           <Image
             className="rounded-full shadow-2xl"
-            src="/perfil.png"
+            src="/perfil.jpg"
             alt="me"
             width={300}
             height={300}
