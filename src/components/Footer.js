@@ -26,7 +26,7 @@ const Footer = () => {
             offset={-100}
             duration={500}
           >
-            © 2024 Agustín Franco
+            © 2025 Agustín Franco
           </Rslink>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
