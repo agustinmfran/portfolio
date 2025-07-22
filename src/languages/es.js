@@ -15,9 +15,9 @@ const es = {
   },
   infoSection: {
     title: "Hola, soy Agustín.",
-    im: "Soy",
+    im: "Soy ",
     p1: " y ",
-    span: "Cloud Practitioner",
+    span: "Cloud Administrator",
     p2: " con background en Desarrollo Web Fullstack viviendo en Buenos Aires, Argentina. Trabajando para brindar soluciones digitales.",
     projects: "Proyectos",
   },

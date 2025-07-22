@@ -17,7 +17,7 @@ const en = {
     title: "Hi, I'm Agustín.",
     im: "I'm ",
     p1: " and ",
-    span: "Cloud Practitioner",
+    span: "Cloud Administrator",
     p2: "  with Fullstack Web Development background based in Buenos Aires, Argentina. Working towards creating digital solutions.",
     projects: "Projects",
   },

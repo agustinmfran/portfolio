@@ -5,18 +5,6 @@ import Bounce from "react-reveal/Bounce";
 import es from "../languages/es";
 import en from "../languages/en";
 
-const awsSkills = [
-  "AWS",
-  "EC2",
-  "Lambda",
-  "S3",
-  "RDS",
-  "DynamoDB",
-  "CloudFormation",
-  "Amplify",
-  "Cognito",
-];
-
 const devSkills = [
   "HTML",
   "CSS",
@@ -28,13 +16,11 @@ const devSkills = [
   "SQL",
   "NoSQL",
   "AirTable",
-  "CI/CD",
-  "Docker",
-  "Kubernetes",
+  "Zapier",
+  "n8n",
   "API",
   "GIT",
-  "Jira",
-  "Agile",
+  "Jira"
 ];
 
 const miscSkills = [
@@ -47,6 +33,8 @@ const miscSkills = [
   "Workflows",
   "Pipelines",
   "Reporting",
+  "Custom code",
+  "Training"
 ];
 
 const AboutSection = () => {
@@ -87,19 +75,6 @@ const AboutSection = () => {
               <h1 className="text-center text-2xl font-bold mb-6 md:text-right">
                 {lang.skills}
               </h1>
-              <div className="flex flex-wrap flex-row justify-center md:justify-end">
-                {awsSkills.map((skill, index) => {
-                  return (
-                    <p
-                      key={index}
-                      className="bg-gray-200 px-4 py-2 ml-2 mt-2 text-gray-500 rounded font-semibold"
-                    >
-                      {skill}
-                    </p>
-                  );
-                })}
-              </div>
-              <hr className="w-2 h-0.5 mx-auto my-4 bg-black border-0 rounded" />
               <div className="flex flex-wrap flex-row justify-center md:justify-end">
                 {devSkills.map((skill, index) => {
                   return (
